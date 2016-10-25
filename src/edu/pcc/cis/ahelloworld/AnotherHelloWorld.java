@@ -9,5 +9,7 @@ package edu.pcc.cis.ahelloworld;
  *
  */
 public class AnotherHelloWorld {
-    
+    public static void main(String[] args) {
+        System.out.println("Hello World... Again");
+    }
 }
