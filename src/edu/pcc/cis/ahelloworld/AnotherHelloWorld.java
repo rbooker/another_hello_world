@@ -1,5 +1,7 @@
 package edu.pcc.cis.ahelloworld;
 
+import java.util.Date;
+
 /**
  * AnotherHelloWorld
  * Description: A very simple class that prints out a few lines of text
@@ -11,5 +13,7 @@ package edu.pcc.cis.ahelloworld;
 public class AnotherHelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello World... Again");
+        System.out.println("The present time and date is:");
+        System.out.println(new Date());
     }
 }
